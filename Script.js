@@ -19,5 +19,7 @@ function Verif() {
 		
 	
 } 
+
+var string = "Carotte Courgette";
 	
-var identité = {Prénom : "Bobby", Nom : "Carotte", Age : 4, Fourrure : "Orange"};
+var identitéObjet = {Prénom : "Bobby", Nom : "Carotte", Age : 4, Fourrure : "Orange"};
