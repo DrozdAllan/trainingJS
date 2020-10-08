@@ -1,0 +1,271 @@
+
+
+body {
+    background-image: url("../FullExoThomas/fondecran.jpg.png");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+
+
+.btop {
+background-color: black;
+color: whitesmoke;
+}
+
+ 
+.Bandeau1 {
+background-color: black;
+color: whitesmoke;
+border-bottom: solid 4px green;
+}
+
+.First {
+    height: 50%;
+}
+
+.AnkamaGris {
+    filter: grayscale(100%)
+}
+
+
+
+
+.header {
+
+    background-color: beige;
+    
+    border: 5px solid rgba(224, 201, 201, 0.5);
+    background-clip: padding-box;
+}
+
+.Pays {
+    right: 0px;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+color: beige;
+}
+
+.navgauche {
+   margin-left: auto;
+
+}
+
+.navdroite {
+ padding-right: auto;
+}
+.navbar-brand {
+    position: relative;
+    margin-top: 0px;
+    height: 10px;
+}
+
+
+
+.bardroite:hover {
+    background-color: rgb(22, 190, 50);
+    text-decoration: none;
+    transition-duration: 0.7s; 
+    color: rgb(255, 255, 255) 
+}
+
+
+.dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: -5px;
+    transition: 0.7s;
+
+    top:90%; 
+    transform-origin: 0% 0%;
+    transform: rotateX(40deg); 
+
+}
+    
+.navbar .nav-item:hover .dropdown-menu { 
+    transition: 0.7s; 
+    opacity:1; 
+    visibility:visible; 
+    top:100%; 
+    transform: rotateX(0deg);
+}
+
+
+
+
+
+.item {
+background-image: url("file:///C:/Users/Allan/Desktop/WEB/trainingJS/FullExoThomas/oeuflogo2.png");
+background-repeat: no-repeat;
+
+padding-left: 25px;
+color: honeydew;
+font-size: 22px;
+font-style: oblique;
+}
+
+.dlo {
+background-image: url("file:///C:/Users/Allan/Desktop/WEB/trainingJS/FullExoThomas/oeuflogo2.png");
+background-repeat: no-repeat;
+background-color: rgb(6, 80, 6);
+padding-left: 25px;
+color: honeydew;
+font-size: 22px;
+font-style: oblique;
+}
+
+.dlo:hover {
+    background-color: rgb(22, 190, 50);
+    text-decoration: none;
+    transition-duration: 0.7s; 
+    color: rgb(255, 255, 255);
+}
+
+.item:hover {
+    background-image: url("file:///C:/Users/Allan/Desktop/WEB/trainingJS/FullExoThomas/oeuflogo3.png");
+    color: greenyellow;
+    text-decoration: none;
+    transition-duration: 0.7s;
+
+}
+
+.pun {
+    font-style: italic;
+    color: green;
+    font-size: 22px;
+}
+
+
+
+img.ocre {
+position: absolute;
+bottom: 0px;
+left: 120px;
+width: 70%;
+height: 70%;
+transform: rotate(18deg);
+}
+
+.title {
+    background-color: rgb(149, 218, 58);
+    width: 100%;
+    text-align : center;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornsilk;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+
+
+
+.creation {
+    padding-top: 200px;
+     
+}
+
+.clicfb {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+    color: rgb(82, 38, 10);
+}
+
+.gras {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+    color: rgba(110, 62, 17, 0.884);
+}
+
+
+.fb {
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+input:not(.notin) {
+height:40px;
+width: 100%;
+}
+
+
+.gename {
+background-color: darkgreen;
+color: beige;
+text-shadow: 1px 1px 2px black;
+}
+
+
+
+.userterm {
+font-style: italic;
+}
+
+
+.terminsc {
+background-color: darkgreen;
+color: beige;
+font-size: 28px;
+text-shadow: 1px 1px 2px black;
+}
+
+.jdr {
+background-color: chocolate;
+width: 100%;
+text-align : center;
+font-size: 34px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: cornsilk;
+}
+
+.header2 {
+   
+}
+
+
+.imgbot {
+    height: 300px;
+}
+
+
+.popo {
+z-index: -1;
+padding-top: 40px;
+color: beige; 
+}
+
+
+.testext {
+background-color: cornsilk;
+font-size: 14px;
+text-align: justify;
+display: flex;
+align-items: center;
+-webkit-align-items: center;
+}
+
+
+.bot {
+    background-color: rgb(14, 4, 59);
+width: 100%;
+}
+
+
+.dlbot {
+    background-color: rgb(92, 167, 17);
+  padding-right: 0px;
+  margin: auto;
+  text-shadow: 1px 1px 2px black;
+}
