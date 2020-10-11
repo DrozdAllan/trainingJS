@@ -1,10 +1,63 @@
+@media (max-width: 769px) {
 
-
-body {
-    background-image: url("../FullExoThomas/fondecran.jpg.png");
-    background-repeat: no-repeat;
-    background-size: 100%; 
+.navbar-brand {
+visibility: hidden;
 }
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.roulant {
+    color: white;
+}
+
+.navbar-toggler {
+    align-self: flex-start;
+}
+
+
+
+
+}
+
+@media (min-width: 770px) {
+
+
+    .dropdown-menu {
+        display: block;
+        background-color: black;
+        width: 100%;
+        margin-top: -10px;
+        margin-left: -5px;
+        
+        
+        
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.7s;
+        top:90%; 
+        transform-origin: 0% 0%;
+        transform: rotateX(40deg); 
+    
+    }
+        
+    .navbar .nav-item:hover .dropdown-menu { 
+        transition: 0.7s; 
+        opacity:1; 
+        visibility:visible; 
+        top:100%; 
+        transform: rotateX(0deg);
+    }
+
+}
+
+
+    
+
+
+
+
 
 
 
@@ -43,61 +96,59 @@ border-bottom: solid 4px green;
     right: 0px;
 }
 
+
 .navbar-custom {
     background-color: black;
+    display: flex;
+    color: beige;
+
+}
+
+.nav-item:last-child {
+    margin-top: auto;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
 color: beige;
+
 }
 
-.navgauche {
-   margin-left: auto;
 
+.navgauche {
+  
+    margin-left: auto;
+}
+
+.navbar-brand {
+    position: absolute;
+    z-index: 2;
+margin-top: -40px;  
+    
+}
+
+.navmid {
+width: 160px;
 }
 
 .navdroite {
- padding-right: auto;
-}
-.navbar-brand {
-    position: relative;
-    margin-top: 0px;
-    height: 10px;
+ margin-right: auto;
+ vertical-align: baseline;
+
 }
 
-
-
-.bardroite:hover {
-    background-color: rgb(22, 190, 50);
+.btndroite {
     text-decoration: none;
-    transition-duration: 0.7s; 
-    color: rgb(255, 255, 255) 
+    color: ivory;
+}
+
+.btndroite:hover {
+  
+    color: ivory;
 }
 
 
-.dropdown-menu {
-    display: block;
-    opacity: 0;
-    visibility: hidden;
-    width: 100%;
-    background-color: black;
-    margin-top: -10px;
-    margin-left: -5px;
-    transition: 0.7s;
 
-    top:90%; 
-    transform-origin: 0% 0%;
-    transform: rotateX(40deg); 
 
-}
-    
-.navbar .nav-item:hover .dropdown-menu { 
-    transition: 0.7s; 
-    opacity:1; 
-    visibility:visible; 
-    top:100%; 
-    transform: rotateX(0deg);
-}
 
 
 
@@ -155,6 +206,22 @@ height: 70%;
 transform: rotate(18deg);
 }
 
+
+.bgimg {
+    background-image: url("../FullExoThomas/fondecran.jpg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.creation {
+    padding-bottom: 5px; 
+    padding-top: 200px;
+    z-index: 0;
+     
+}
+
+
 .title {
     background-color: rgb(149, 218, 58);
     width: 100%;
@@ -169,10 +236,6 @@ transform: rotate(18deg);
 
 
 
-.creation {
-    padding-top: 200px;
-     
-}
 
 .clicfb {
     font-weight: bold;
@@ -191,8 +254,8 @@ transform: rotate(18deg);
 
 .fb {
     height: 100px;
-    width: 100px;
-    margin-left: 40px;
+    width: 70%;
+    margin-left: 10%;
 }
 
 input:not(.notin) {
@@ -231,7 +294,8 @@ color: cornsilk;
 }
 
 .header2 {
-   
+    border: 5px solid rgba(224, 201, 201, 0.5);
+    background-clip: padding-box;
 }
 
 
@@ -241,12 +305,15 @@ color: cornsilk;
 
 
 .popo {
-z-index: -1;
+z-index: 1;
 padding-top: 40px;
 color: beige; 
 }
 
+.testimg {
+background-color: rgb(233, 136, 10);
 
+}
 .testext {
 background-color: cornsilk;
 font-size: 14px;
@@ -258,6 +325,7 @@ align-items: center;
 
 
 .bot {
+
     background-color: rgb(14, 4, 59);
 width: 100%;
 }

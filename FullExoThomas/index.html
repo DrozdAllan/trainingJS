@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <!-- ICI ON MET LES IMPORTS   https://www.dofus.com/fr/mmorpg/jouer  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -53,11 +52,12 @@
                         <button class="btop" type="button">support</button>
                     </a>
 
+
                 </div>
                 <div class="col-6"></div>
                 <div class="col-3">
                     <select class="pays btop">
-                        <option data-style="background-image: url('flag1.png');"> FR</option>
+                        <option> FR</option>
                         <option> EN </option>
 
                     </select>
@@ -70,22 +70,16 @@
 
 
 
+    <nav class="navbar sticky-top navbar-expand-md navbar-custom" id="blablacar">
 
 
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="material-icons roulant">accessible</span>
+        </button>
 
-    <!-- https://getbootstrap.com/docs/4.0/components/navbar/ 
-https://getbootstrap.com/docs/4.0/components/dropdowns/
--->
-
-
-
-
-    <nav class="navbar sticky-top navbar-expand navbar-custom">
-
-
-
-        <div class="collapse navbar-collapse order-0" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <ul class="navbar-nav navgauche">
 
@@ -220,243 +214,248 @@ https://getbootstrap.com/docs/4.0/components/dropdowns/
 
         </div>
 
-        <div class="mx-auto order-1">
-            <a class="navbar-brand" href="#"><img src="Dofus_Logo.png"></a>
+        
+            <div class="navmid">
+               
+                <a class="navbar-brand" href="#"><img src="Dofus_Logo.png"></a>
+            </div>
+     
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav navdroite">
+                
+                    <a class="nav-link btndroite" href="#">ACHETER DES KAMAS</a>
+               
+                    <a class="nav-link btndroite" href="#">FORUMS</a>
+              
+                    <a class="nav-link btndroite" href="#">BOUTIQUE</a>
+                
+            
         </div>
 
-        <div class="navbar-collapse collapse order-2 ">
-            <ul class="navbar-nav navdroite">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ACHETER DES KAMAS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FORUMS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BOUTIQUE</a>
-                </li>
-            </ul>
-        </div>
     </nav>
 
 
 
+    <div class="bgimg">
+        <div class="container creation">
+
+            <div class="row">
+                <div class="col-12 col-lg-7">
+
+                    <div class="row header">
+
+                        <h2 class="title">CRÉEZ VOTRE COMPTE </h2>
+
+                        <div class="col">
+
+
+                            <div class="row">
 
 
 
-    <div class="container creation">
-
-        <div class="row">
-            <div class="col-7">
-
-                <div class="row header">
-
-                    <h2 class="title">CRÉEZ VOTRE COMPTE </h2>
-
-                    <div class="col">
-
-
-                        <div class="row">
-
-
-
-                            <div class="col-4 border-right">
+                                <div class="col-4 border-right">
 
 
 
 
-                                <label class="clicfb">En quelques clics avec...</label>
-                                <a class="navbar-brand" href="#"><img class="fb" src="facebook-logo.png"></a>
+                                    <label class="clicfb">En quelques clics avec...</label>
+                                    <a href="#"><img class="fb" src="facebook-logo.png"></a>
 
 
-                            </div>
-
-                            <div class="col-8">
-
-                                <label class="gras">Nom de compte*</label>
-                                <input type="text" placeholder="Nom de compte" id="Compte">
-
-
-                                <button type="button" class="gename gras" onclick="GenerateurNom">GÉNÉRER UN NOM DE COMPTE</button>
-                                <br>
-
-                                <label class="gras">Mot de passe*</label>
-                                <input type="password" placeholder="Mot de passe" class="">
-
-                                <label class="gras">Confirmation du mot de passe*</label>
-                                <input type="password" placeholder="Confirmation du mot de passe" class="">
-
-                                <label class="gras">E-mail*</label>
-                                <input type="email" placeholder="E-mail" class="">
-
-                                <label class="gras">Date de naissance*</label>
-
-                                <div class="Naissance">
-
-                                    <select>
-                                        <option>Jour</option>
-                                        <option value="1">01</option>
-                                        <option value="2">02</option>
-                                        <option value="3">03</option>
-                                        <option value="4">04</option>
-                                        <option value="5">05</option>
-                                        <option value="6">06</option>
-                                        <option value="7">07</option>
-                                        <option value="8">08</option>
-                                        <option value="9">09</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                        <option value="13">13</option>
-                                        <option value="14">14</option>
-                                        <option value="15">15</option>
-                                        <option value="16">16</option>
-                                        <option value="17">17</option>
-                                        <option value="18">18</option>
-                                        <option value="19">19</option>
-                                        <option value="20">20</option>
-                                        <option value="21">21</option>
-                                        <option value="22">22</option>
-                                        <option value="23">23</option>
-                                        <option value="24">24</option>
-                                        <option value="25">25</option>
-                                        <option value="26">26</option>
-                                        <option value="27">27</option>
-                                        <option value="28">28</option>
-                                        <option value="29">29</option>
-                                        <option value="30">30</option>
-                                        <option value="31">31</option>
-                                    </select>
-
-                                    <select>
-                                        <option>Mois</option>
-                                        <option value="1">Janvier</option>
-                                        <option value="2">Février</option>
-                                        <option value="3">Mars</option>
-                                        <option value="4">Avril</option>
-                                        <option value="5">Mai</option>
-                                        <option value="6">Juin</option>
-                                        <option value="7">Juillet</option>
-                                        <option value="8">Août</option>
-                                        <option value="9">Septembre</option>
-                                        <option value="10">Octobre</option>
-                                        <option value="11">Novembre</option>
-                                        <option value="12">Décembre</option>
-                                    </select>
-
-                                    <select>
-                                        <option> Année</option>
-                                        <option value="2002">2002</option>
-                                        <option value="2001">2001</option>
-                                        <option value="2000">2000</option>
-                                        <option value="1999">1999</option>
-                                        <option value="1998">1998</option>
-                                        <option value="1997">1997</option>
-                                        <option value="1996">1996</option>
-                                        <option value="1995">1995</option>
-                                        <option value="1994">1994</option>
-                                        <option value="1993">1993</option>
-                                        <option value="1992">1992</option>
-                                        <option value="1991">1991</option>
-                                        <option value="1990">1990</option>
-                                        <option value="1989">1989</option>
-                                        <option value="1988">1988</option>
-                                        <option value="1987">1987</option>
-                                        <option value="1986">1986</option>
-                                        <option value="1985">1985</option>
-                                        <option value="1984">1984</option>
-                                        <option value="1983">1983</option>
-                                    </select>
                                 </div>
 
-
-                                <input type="checkbox" class="notin"> Je souhaite recevoir toute l'information sur DOFUS
-                                grâce à la
-                                newsletter Ankama. <br> <br>
-
-                                <div class="userterm"> En vous inscrivant, vous confirmez avoir lu, compris et accepter
-                                    les Conditions d'utilisation et la Politique de confidentialité ainsi qu'être
-                                    informé(e) de votre droit à l'information. </div>
+                                <div class="col-8">
 
 
 
+                                    <label class="gras">Nom de compte*</label>
+                                    <input type="text" placeholder="Nom de compte" id="Compte">
 
-                                <button id="validepd" class="terminsc" type="submit" onclick="test()">TERMINER L'INSCRIPTION </button>
+
+                                    <button type="button" class="gename gras" onclick="GenerateurNom">GÉNÉRER UN NOM DE
+                                        COMPTE</button>
+                                    <br>
+
+                                    <label class="gras">Mot de passe*</label>
+                                    <input type="password" placeholder="Mot de passe" id="Mdp">
+
+                                    <label class="gras">Confirmation du mot de passe*</label>
+                                    <input type="password" placeholder="Confirmation du mot de passe" id="ConfirmMdp">
+
+                                    <label class="gras">E-mail*</label>
+                                    <input type="email" placeholder="E-mail" id="Mail">
+
+                                    <label class="gras">Date de naissance*</label>
+
+                                    <div class="Naissance">
+
+                                        <select id="Jour">
+                                            <option value="">Jour</option>
+                                            <option value="1">01</option>
+                                            <option value="2">02</option>
+                                            <option value="3">03</option>
+                                            <option value="4">04</option>
+                                            <option value="5">05</option>
+                                            <option value="6">06</option>
+                                            <option value="7">07</option>
+                                            <option value="8">08</option>
+                                            <option value="9">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+
+                                        <select id="Mois">
+                                            <option value="">Mois</option>
+                                            <option value="1">Janvier</option>
+                                            <option value="2">Février</option>
+                                            <option value="3">Mars</option>
+                                            <option value="4">Avril</option>
+                                            <option value="5">Mai</option>
+                                            <option value="6">Juin</option>
+                                            <option value="7">Juillet</option>
+                                            <option value="8">Août</option>
+                                            <option value="9">Septembre</option>
+                                            <option value="10">Octobre</option>
+                                            <option value="11">Novembre</option>
+                                            <option value="12">Décembre</option>
+                                        </select>
+
+                                        <select id="Année">
+                                            <option value=""> Année</option>
+                                            <option value="2002">2002</option>
+                                            <option value="2001">2001</option>
+                                            <option value="2000">2000</option>
+                                            <option value="1999">1999</option>
+                                            <option value="1998">1998</option>
+                                            <option value="1997">1997</option>
+                                            <option value="1996">1996</option>
+                                            <option value="1995">1995</option>
+                                            <option value="1994">1994</option>
+                                            <option value="1993">1993</option>
+                                            <option value="1992">1992</option>
+                                            <option value="1991">1991</option>
+                                            <option value="1990">1990</option>
+                                            <option value="1989">1989</option>
+                                            <option value="1988">1988</option>
+                                            <option value="1987">1987</option>
+                                            <option value="1986">1986</option>
+                                            <option value="1985">1985</option>
+                                            <option value="1984">1984</option>
+                                            <option value="1983">1983</option>
+                                        </select>
+                                    </div>
 
 
-                                <div>J'ai déjà un compte - <a href="#">Télécharger DOFUS </a></div>
+                                    <input type="checkbox" class="notin" id="Newsletter"> Je souhaite recevoir toute
+                                    l'information sur DOFUS
+                                    grâce à la
+                                    newsletter Ankama. <br> <br>
+
+                                    <div class="userterm"> En vous inscrivant, vous confirmez avoir lu, compris et
+                                        accepter
+                                        les Conditions d'utilisation et la Politique de confidentialité ainsi qu'être
+                                        informé(e) de votre droit à l'information. </div>
+
+
+
+
+                                    <button id="valide" class="terminsc">TERMINER L'INSCRIPTION </button>
+
+
+
+
+                                    <div>J'ai déjà un compte - <a href="#">Télécharger DOFUS </a></div>
+
+                                </div>
 
                             </div>
 
                         </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                </div>
+
+            </div>
+
+            <br>
+            <div class="row header2">
+                <div class="col-6">
+                    <div class="row">
+
+                        <span class="jdr"> Jeu de rôle dofus </span>
+
+                        <div class="col testimg">
+                            <img class="imgbot"
+                                src="https://static.ankama.com/g/modules/games/play/dofus/illu_block_register.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 testext">
+                    <div>
+
+                        <b>RPG online</b>, DOFUS vous propulse dans un univers médiéval fantastique teinté d'humour.
+                        Incarnez une des
+                        18 classes de personnages, du guerrier fonceur au mage élémentaliste, du barbare enragé au
+                        soigneur,
+                        du
+                        chasseur de trésor au protecteur de la nature, en passant par le berzerk, l'invocateur et
+                        l'assassin
+                        !
+                        Fondez une guilde avec vos amis et partez en quête des œufs de dragon : les Dofus.
+                        <br>
+
+                        Menez des <b>combats tactiques au tour par tour</b> dans ce jeu de rôle multijoueur. Vos PA
+                        permettent de
+                        lancer des sorts à distance ou au corps à corps. Plus vous gagnez d'XP, plus vous montez de
+                        niveau.
+                        Droppez des objets sur les monstres vaincus et améliorez-les grâce à la forgemagie (artisanat /
+                        craft).
+                        <br>
+                        Dans ce jeu de stratégie PC, exercez de multiples métiers parmi les 19 proposés (chasseur,
+                        alchimiste...). Gagnez des "kamas" en échange de vos services ou ressources.
+
+                        <br>
+                        Retrouvez aussi dans ce <b>RPG tour par tour</b> : combats JCJ, colisée, matchmaking, élevage de
+                        montures,
+                        familiers, hôtels de vente et même un serveur héroïque où l'XP et le drop sont doublés, mais la
+                        mort
+                        y
+                        est définitive. Une aventure unique inégalée vous attend dans ce jeu en ligne PC !
 
                     </div>
                 </div>
 
             </div>
-            <div class="col">
-            </div>
+
 
         </div>
 
-        <br>
-        <div class="row header2">
-            <div class="col-4">
-                <div class="row">
-
-                    <span class="jdr"> Jeu de rôle dofus </span>
-
-                    <div class="col">
-                        <img class="imgbot"
-                            src="https://static.ankama.com/g/modules/games/play/dofus/illu_block_register.png">
-                    </div>
-                </div>
-            </div>
-            <div class="col-8 testext">
-                <div>
-
-                    <b>RPG online</b>, DOFUS vous propulse dans un univers médiéval fantastique teinté d'humour.
-                    Incarnez une des
-                    18 classes de personnages, du guerrier fonceur au mage élémentaliste, du barbare enragé au soigneur,
-                    du
-                    chasseur de trésor au protecteur de la nature, en passant par le berzerk, l'invocateur et l'assassin
-                    !
-                    Fondez une guilde avec vos amis et partez en quête des œufs de dragon : les Dofus.
-                    <br>
-
-                    Menez des <b>combats tactiques au tour par tour</b> dans ce jeu de rôle multijoueur. Vos PA
-                    permettent de
-                    lancer des sorts à distance ou au corps à corps. Plus vous gagnez d'XP, plus vous montez de niveau.
-                    Droppez des objets sur les monstres vaincus et améliorez-les grâce à la forgemagie (artisanat /
-                    craft).
-                    <br>
-                    Dans ce jeu de stratégie PC, exercez de multiples métiers parmi les 19 proposés (chasseur,
-                    alchimiste...). Gagnez des "kamas" en échange de vos services ou ressources.
-
-                    <br>
-                    Retrouvez aussi dans ce <b>RPG tour par tour</b> : combats JCJ, colisée, matchmaking, élevage de
-                    montures,
-                    familiers, hôtels de vente et même un serveur héroïque où l'XP et le drop sont doublés, mais la mort
-                    y
-                    est définitive. Une aventure unique inégalée vous attend dans ce jeu en ligne PC !
-
-                </div>
-            </div>
-
-        </div>
 
 
     </div>
-
-
-
-
 
 
 
@@ -501,23 +500,23 @@ https://getbootstrap.com/docs/4.0/components/dropdowns/
 
                             CREER UN COMPTE
                             S'ABONNER
-                            SE CONNECTER 
-                        ACHETER DES OGRINES
-                        SÉCURITÉ DU COMPTE 
+                            SE CONNECTER
+                            ACHETER DES OGRINES
+                            SÉCURITÉ DU COMPTE
                         </div>
                         <div class="col">
                             SUPPORT
 
-                            IMPOSSIBLE DE JOUER 
-                            MOT DE PASSE PERDU 
-                            COMPTE VOLÉ 
-                            NOUS CONTACTER 
+                            IMPOSSIBLE DE JOUER
+                            MOT DE PASSE PERDU
+                            COMPTE VOLÉ
+                            NOUS CONTACTER
                         </div>
                     </div>
                 </div>
                 <div class="col">
 
-                    <button type="button" class="dlbot" href="#">LE JEU</button> 
+                    <button type="button" class="dlbot" href="#">LE JEU</button>
                 </div>
             </div>
         </div>
