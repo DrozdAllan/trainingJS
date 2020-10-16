@@ -6,15 +6,21 @@ $(document).ready(function () {
 
 
     $(window).scroll(function () {
-        //console.log($(window).scrollTop())
-        if ($(window).scrollTop() > 121) {
+       // console.log($(window).scrollTop())
+        if ($(window).scrollTop() > 99) {
             $('.navbar').addClass('sticky-top');
-            $('.ttl img').attr('src', 'file:///C:/Users/Allan/Desktop/WEB/trainingJS/FullExoThomas/oeuflogo2.png');
+            $('.navbar-brand img').attr('src', 'oeuflogo2.png');
+            $('.navmid').css("width", "50px");
+            $('.navbar-brand img').addClass('ttl');
+            $('.triangle').css('display', 'none');
+           
         }
-        if ($(window).scrollTop() < 122) {
+        if ($(window).scrollTop() < 99) {
             $('.navbar').removeClass('sticky-top');
-            $('.ttl img').attr('src', 'Dofus_Logo.png');
-
+            $('.navbar-brand img').attr('src', 'Dofus_Logo.png');
+            $('.navmid').css("width", "160px");
+            $('.navbar-brand img').removeClass('ttl');
+            $('.triangle').css('display', 'initial');
         }
     });
 
@@ -28,6 +34,16 @@ $(document).ready(function () {
 
     $("#Brouille").mouseout(function () {
         $("#Brouille").addClass("AnkamaGris");
+    });
+
+    $(".nav-item").mouseover(function () {
+        var a = ($(this).index());
+    $(".nav-item .roulant").eq(a).text("accessible_forward");
+    });
+
+    $(".nav-item").mouseleave(function() {
+        var a = ($(this).index());
+    $(".nav-item .roulant").eq(a).text("accessible");
     });
 
 
